@@ -10,9 +10,9 @@ void main()
         n=n/10;
     }
     if(temp==n)
-    printf("amstrong number");
+    printf("armstrong number");
     else{
-        printf("not a amstrong number");
+        printf("not a armstrong number");
         
     }
 }
