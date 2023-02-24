@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int num,sum1,sum2;
+    scanf("%d",&num);
+    while(num--)
+    {
+        scanf("%d",&num);
+        if(num%2==0)
+        sum1=sum1+num;
+        else 
+        sum2=sum2+num;
+    }
+    printf("\n Even sum=%d \n Odd sum=%d",sum1,sum2);
+    printf("\n Difference is %d",sum1-sum2);
+}
