@@ -7,8 +7,7 @@ int main()
 	while(count<20)
 	{
 		printf("Enter age of person [%d]: ",count+1);
-		scanf("%d",&age);
-		
+		scanf("%d",&age);		
 		if(age>=0 && age<=5)
 			b++;
 		else if(age>=6 && age<=17)
@@ -18,7 +17,6 @@ int main()
 		//increase counter
 		count++;
 	}
-	
 	printf("Baby age: %d\n",b);
 	printf("School age: %d\n",s);
 	printf("Adult age: %d\n",a);
