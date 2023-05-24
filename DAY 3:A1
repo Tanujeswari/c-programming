@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int a[50], b[50], n, m, i, k, c[100];
+    printf("Enter a size: ");
+    scanf("%d", &n);
+    printf("Enter %d elements of a:\n",n);
+    for(i=0; i<n; i++)
+    {
+        scanf("%d", &a[i]);
+        c[i] = a[i];
+    }
+    k = i;
+    printf("\nEnter b size: ");
+    scanf("%d", &m);
+    printf("Enter %d elements of b:\n",m);
+    for(i=0; i<m; i++)
+    {
+        scanf("%d", &b[i]);
+        c[k] = b[i];
+        k++;
+    }
+    printf("\nMerged array:\n");
+    for(i=0; i<k; i++)
+        printf("%d ", c[i]);
+    return 0;
+}
