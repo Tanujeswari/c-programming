@@ -1,0 +1,11 @@
+def personal_details():
+    name = "Tanu"
+    fname = "Suresh"
+    mname = "Sunitha"
+    study = "II-BCA-A"
+    habbits = "fearful thoughts and overthinking"
+    interests = "playing and acting"
+    color = "blue"
+    print("Name: {}\nfname: {}\nmname: {}\nstudy: {}\nhabbits: {}\ninterests: {}\ncolor: {}".format(name, fname, mname, study, habbits, interests, color))
+
+personal_details()
